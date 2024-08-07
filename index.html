@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iTversity - Homepage</title>
+    <!-- styling -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!------------------------------------------------------------------------------------------
+    header design 
+    -------------------------------------------------------------------------------------------->
+    <header>
+      <a href="#" class="logo">iT<span>ver</span>sity</a>
+
+      <ul class="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#qualifications">Qualifications</a></li>
+        <li><a href="#application">How To Apply</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+      <div class="h-right">
+        <a href="#">Follow us</a>
+        <a href="https://www.instagram.com/belgiumcampuslife/" target="_blank"
+          ><i class="ri-instagram-fill"></i
+        ></a>
+        <a href="https://www.facebook.com/BelgiumCampusSA/" target="_blank"
+          ><i class="ri-facebook-fill"></i
+        ></a>
+        <a href="https://twitter.com/BelgiumCampus" target="_blank"
+          ><i class="ri-twitter-fill"></i
+        ></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+      </div>
+    </header>
+    <!-----------------------------------------------------------------------------------------
+    home section design 
+    ----------------------------------------------------------------------------------------->
+    <section class="home">
+      <div class="home-text">
+        <h5>Discover</h5>
+        <h1>iTversity: <br />Best IT institution</h1>
+        <p>
+          At iTversity, we lead by example through our hard work, passion,
+          dedication and commitment – this helps us to produce graduates who are
+          fearless and determined to become successful. We are wired to make
+          this happen for our students and potential applicants. If you would
+          like to know how we can set you apart from the rest.
+        </p>
+        <a href="#qualifications" class="btn">Read More</a>
+      </div>
+    </section>
+    
+
+    <!--------------------------------------------------------------------------------------------------------------------------------
+    Project Section
+    ---------------------------------------------------------------------------------------------------------------------------------->
+    <section id="projects" class="project">
+      <div class="project-img">
+        <img src="imgs/img/h1.png" alt="" />
+      </div>
+      <div class="project-text">
+        <h5>Student Projects</h5>
+        <h2>The Mega Project Programme</h2>
+        <p>
+          Exposing our students to multicultural, multidisciplinary innovation
+          projects is key to helping them become responsible citizens with the
+          global mindset to drive real change in the world.
+        </p>
+        <a
+          href="https://www.belgiumcampus.ac.za/student-projects/"
+          target="_blank"
+          class="btn"
+          >Read more</a
+        >
+      </div>
+    </section>
+    
+    <!---------------------------------------------------------------------------------
+    Qualifications section design
+    ----------------------------------------------------------------------------------->
+    <section id="qualifications" >
+      <div class="center-text">
+        <h2>Qualifications</h2>
+      </div>
+      <div class="container">
+        <div class="card" >
+          <div class="imgBx"><img src="/imgs/img/course1.png" alt="" /></div>
+          <div class="content">
+            <h2>Diploma in IT</h2>
+            <p>
+             <b>Course duration:</b> 2.5 years<br />
+              <b>NQF:</b> Level 6<br />
+              <b>SAQA ID:</b> 120097<br />
+              This empowering diploma features on-trend specialisations aligned
+              with real-world industry requirements. These specialisations will
+              give you access to many exciting career opportunities and allow
+              you to graduate in high demand.
+            </p>
+            <a href="enroll.html" class="btn">Enroll</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="imgBx"><img src="/imgs/img/course2.png" alt="" /></div>
+          <div class="content">
+            <h2>Bachelor Of IT</h2>
+            <p>
+              <b>Course duration:</b>  3 years<br />
+              <b>NQF:</b> Level 7<br />
+              <b>SAQA ID:</b>  94121<br />
+              A bachelor’s degree rbains the entry standard in many
+              professional careers. Its long-term benefits make it well worth
+              the initial investment as it allows you professional entry into
+              some of the top names in IT.
+            </p>
+            <a href="enroll.html" class="btn">Enroll</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="imgBx">
+            <img src="/imgs/img/course3.png" alt="" />
+          </div>
+          <div class="content">
+            <h2>B.Computing</h2>
+            <p>
+              <h4>Bachelor of Computing</h4>
+              <b>Course duration:</b> 4 years<br />
+              <b>NQF:</b> Level 8<br />
+              <b>SAQA ID:</b> 62689<br />
+              Our Bachelor of Computing degree will teach you the essential
+              computing skills of troubleshooting and formulating viable
+              solutions. 
+            </p>
+            <a href="enroll.html" class="btn">Enroll</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-----------------------------------------------------------------------------------------
+     Search 
+     ------------------------------------------------------------------------------------------>
+   
+    <section id="course-search">
+      <input type="text" id="searchInput" placeholder="Search for a course..." />
+      <button id="searchButton" class="btn">Search</button>
+      <div id="search-results"></div>
+    </section>
+      <section id="course-list" class="course-list">
+
+          <div><h3 class="search-course center">Search the course you want to enroll in</h3><h3 class="center">Bachelor of Computing</h3>
+            <h3 class="center">Bachelor of Information Technology</h3>
+            <h3 class="center">Diploma in Information Technolog</h3><br></div>
+          
+          <div id="courses"></div>
+      </section>
+
+      <section id="course-details" class="course-details" style="display: none;">
+          <h2>Course Details</h2>
+          <div id="courseInfo"></div>
+          <button id="printCourse">Print Course</button>
+          <a class="register-button" href="enroll.html" >Enroll</a></button>
+      </section>
+
+      <section id="completed-modules" class="completed-modules" style="display: none;">
+          <h2>Completed Modules</h2>
+          <ol id="completedList"></ol>
+      </section>
+
+
+    <!-----------------------------------------------------------------------------------
+    Application section design
+    ------------------------------------------------------------------------------------->
+    <section id="application">
+      <div class="application-text">
+        <h5>How To Apply</h5>
+        <h2>Your Future Starts Now</h2>
+        <p>Provide your details below and we will get in touch.</p>
+        <a href="#qualifications" class="btn">Application</a>
+      </div>
+      <div class="application-img">
+        <img src="imgs/img/enrol.png" alt="" />
+      </div>
+    </section>
+    <!-- custom javascript file link -->
+    <script src="script.js"></script>
+  </body>
+</html>
